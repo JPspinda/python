@@ -1,7 +1,7 @@
 def mult(*args):
     total = 1
     for numero in args:
-        total = total * numero
+        total *= numero
     return total
 
 def par_impar(num):
